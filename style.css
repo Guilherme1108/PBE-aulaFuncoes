@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(./img/fundo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+    gap: 20px;
+}
+
+h1{
+    font-size: 5rem;
+    color: rgba(182, 255, 243, 0.555);
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+label{
+    font-size: 2rem;
+    color: rgba(39, 255, 122, 0.623);
+}
+
+input{
+    font-size: 2rem;
+    background-color: rgba(110, 210, 235, 0.397);
+}
+
+button{
+    height: 50px;
+    width: 200px;
+    font-size: 2rem;
+    color: white;
+    background-color: rgba(39, 255, 122, 0.623);
+}
+
+h3 {
+    font-size: 3em;
+    color: rgba(182, 255, 243, 0.555);
+}
